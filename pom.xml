@@ -13,21 +13,10 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<name>customer-service</name>
 	<description>Toti shop customer service</description>
-	<url/>
-	<licenses>
-		<license/>
-	</licenses>
-	<developers>
-		<developer/>
-	</developers>
-	<scm>
-		<connection/>
-		<developerConnection/>
-		<tag/>
-		<url/>
-	</scm>
+
 	<properties>
 		<java.version>25</java.version>
+		<toti.commons.version>0.0.1-RELEASE</toti.commons.version>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -54,6 +43,12 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>com.totishop</groupId>
+			<artifactId>common-model</artifactId>
+			<version>${toti.commons.version}</version>
 		</dependency>
 	</dependencies>
 
