@@ -50,6 +50,11 @@
 			<artifactId>common-model</artifactId>
 			<version>${toti.commons.version}</version>
 		</dependency>
+		<dependency>
+			<groupId>com.totishop</groupId>
+			<artifactId>common-dto</artifactId>
+			<version>${toti.commons.version}</version>
+		</dependency>
 	</dependencies>
 
 	<build>
